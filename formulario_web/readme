@@ -1,1 +1,22 @@
+A unidade vh significa altura da janela de visualização, e é igual a 1% do height 
+da janela de visualização. Isto o torna relativo à altura da janela de visualização.
 
+O atributo method especifica como enviar dados de formulário para o URL especificado no atributo action. 
+Os dados do formulário podem ser enviados através de uma solicitação GET como parâmetros de URL 
+(com method="get") ou através de uma solicitação POST como dados no corpo da solicitação (com method="post").
+
+Especificar o atributo type de um elemento de formulário é importante para o navegador saber que tipo de dados ele deve esperar.
+Se type não for especificado, o navegador o definirá por padrão como text.
+
+ATRIBUTOS:
+
+required
+value
+minlength
+pattern
+  -> para definir uma expressão regular que a senha deve corresponder para ser considerada válida.
+select -> opnition
+
+(ultimo elemento) : last-of-type {} ---> seleciona o ultimo elemento
+
+(width de unset) --> Isso removerá a regra anterior que define todos os elementos input para width: 100%.
