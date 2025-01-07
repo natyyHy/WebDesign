@@ -1,1 +1,27 @@
+SEO é um conjunto de técnicas e estratégias para sites ficarem melhor posicionados nos buscadores, gerar reconhecimento de marca,
+aumentar o tráfego e converter mais.
+ 
+ 
+ elemento meta. Ele é usado para especificar informações sobre a página como título, descrição, palavras-chave e autor.
 
+ O atributo charset especifica a codificação de caracteres da página e, hoje em dia, UTF-8 é a única codificação suportada 
+ pela maioria dos navegadores.
+
+ definição de viewport informa ao navegador como renderizar a página. Sua inclusão melhora a acessibilidade visual no celular e 
+ a SEO (otimização de mecanismos de busca).
+
+O elemento footer é um contêiner para uma coleção de conteúdos relacionada à página, enquanto o elemento address é um contêiner 
+para informações de contato do autor da página.
+
+A propriedade CSS define o comportamento de uma caixa de rolagem quando a rolagem é acionada pelas APIs de navegação ou rolagem 
+CSSOM ---> <.scroll-behavior>
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }  <---- reduzir velocidade de smooth
+
+
+ a acessibilidade de navegação pode ser melhorada fornecendo atalhos de teclado. O atributo accesskey aceita uma lista de teclas
+ de acesso separadas por espaços. 
