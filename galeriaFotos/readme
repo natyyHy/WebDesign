@@ -1,1 +1,45 @@
+<ANOTAÇOES>
 
+Propriedade <box-sizing> :
+
+    <usada para emular calcular medidas dos elementos e emular o comportamento dos comportamentos dos navegadores
+    que nao suportam corretamente a especifiçao das propriedades.
+
+    box-sizing: content-box: 
+
+        As propriedades width (largura) e height (altura) são medidas incluindo só o conteúdo, mas não o padding,
+        border ou margin.
+
+    box-sizing: border-box:
+
+    As propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border,
+    mas não incluem a propriedade margin.>
+
+Propriedade text-transform:
+
+    usada para modificar o texto, como tamanhos
+
+Propriedade <display:flex> :
+    é um layout de CSS unidimensional que pode controlar a forma como os itens são espaçados e alinhados dentro de um contêiner.
+
+Propriedade <flex-direction> :
+    row (padrão): eixo horizontal com os itens flex items da esquerda para a direita
+    row-reverse: eixo horizontal com os itens flex da direita para a esquerda
+    column: eixo vertical com os itens flex de cima para baixo
+    column-reverse: eixo vertical com os itens flex de baixo para cima
+
+Propriedade <flex-wrap> : 
+    A propriedade flex-wrap determina como os itens flex se comportam quando o contêiner flex for muito pequeno.
+
+Propriedade <justify-content> :
+    determina como os itens dentro de um contêiner flex são posicionados no eixo principal,
+    afetando a posição e o espaço ao seu redor.
+
+Propriedade <object-fit> : 
+    determina como as imagens devem se comportar
+
+    object-fit: cover --> informar a imagem que ela deve preencher o container enquanto ela mantem sua proporçao, resultando
+     em um corte de ajuste
+
+Propriedade <gap> : 
+    define as lacunas (gaps), também conhecidas como calhas, entre as linhas e as colunas
