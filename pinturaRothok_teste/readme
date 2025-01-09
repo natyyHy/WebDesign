@@ -1,1 +1,9 @@
+<> A margin é util para controlar o espaço dos elementos dentro dela
 
+    por exemplo , se eu aumentar a altura <higth> da margin , os elementos serao empurrados para baixo
+
+<> overflow: hidden; --> padding com overflow definido como hidden - faz com que a tela volte às dimensões originais
+
+<> propriedade filter com blur --> adiciona desfoque nas cores
+
+<> propriedade transform com valor rotate permite girar um elemento
