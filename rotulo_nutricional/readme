@@ -1,1 +1,14 @@
+<ANOTAÇOES>
+
+por padrão, o navegador inclui a borda e o padding quando determina o tamanho de um elemento.
+    para resolver usamos :
+    * {
+        box-sizing: border-box;
+    }
+
+font-weight para deixar o elemento em negrito
+
+letter-spacing para ajustar o espaço entre cada caractere de um texto 
+
+a unidade <rem> é relativa ao tamanho da fonte do elemento html
 
