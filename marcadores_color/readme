@@ -1,0 +1,47 @@
+----> Para dizer aos navegadores como codificar caracteres na sua página, 
+defina o charset como utf-8. utf-8 é um conjunto de caracteres universal que inclui quase todos os 
+caracteres de todos os idiomas humanos.
+
+---->  name definido como viewport e o atributo content definido como width=device-width, initial-scale=1.0
+ para que a página tenha a mesma aparência em todos os dispositivos.
+
+----> Para dar aos marcadores cores diferentes, você precisará adicionar uma classe única a cada um. Várias 
+classes podem ser adicionadas a um elemento 
+listando-as no atributo class e separando-as com um espaço.
+Por exemplo, aqui vemos como adicionar as classes animal e dog ao elemento div.
+
+<div class="animal dog">
+Se você adicionar várias classes a um elemento HTML, os estilos das primeiras classes que você listar podem ser substituídos pelos das classes futuras
+
+----> Um gradiente é quando uma cor muda para outra. A função CSS linear-gradient permite que você controle a direção da transição ao longo de uma linha e quais cores são usadas.
+
+Uma coisa a lembrar é que a função linear-gradient realmente cria um elemento image e que ela geralmente 
+é pareada com a propriedade background que pode aceitar uma imagem como um valor.
+
+>>> FUNÇOES <<<
+
+--- background-color: hsl(hue, saturation, lightness);
+
+--- linear-gradient(gradientDirection, color1, color2, ...);
+
+      - Color-stops permitem que você ajuste onde as cores são colocadas ao longo da linha gradiente.
+        São uma unidade de comprimento como px ou porcentagens que seguem uma cor na função linear-gradient.
+        Por exemplo, neste gradiente vermelho preto, a transição do vermelho para o preto ocorre no ponto 90%
+        ao longo da linha gradiente. Então, o vermelho ocupa a maior parte do espaço disponível:
+        linear-gradient(90deg, red 90%, black);
+
+        (obs): linear-gradient calcula automaticamente esses valores para você e
+        coloca cores igualmente ao longo do gradiente por padrão.
+
+---  o canal alfa controla o nível de transparência ou de opacidade de uma cor.
+       Para adicionar um canal alfa a uma cor rgb, use a função rgba
+       função rgba age como a função rgb, mas recebe mais um número de 0 a 1.0 para o canal alfa:
+
+       - rgba(redValue, greenValue, blueValue, alphaValue)
+
+--- A propriedade box-shadow aplica uma ou mais sombras a um elemento. Aqui está a sintaxe básica:
+
+       - box-shadow: offsetX offsetY color;
+
+
+
