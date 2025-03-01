@@ -27,3 +27,8 @@ span[class~="sr-only"] {\
 Essa propriedade só funciona se position: absolute estiver definido.
 
 3 . clip-path: inset(50%); --> Substitui clip e define um recorte que reduz o elemento para um pequeno retângulo invisível.
+
+position: static;
+position: relative;
+position: absolute; -->  elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da página.
+position: sticky;
