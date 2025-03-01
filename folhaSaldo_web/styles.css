@@ -13,4 +13,21 @@ span[class~="sr-only"] {
     clip-path: inset(50%);
     width: 1px; /* tornando o elemento praticamente invisível, deixando-o com um tamanho mínimo*/
     height: 1px; /* tornando o elemento praticamente invisível, deixando-o com um tamanho mínimo*/
+    overflow: hidden; /*qualquer conteúdo que ultrapasse os limites do elemento seja cortado, evitando que ele se espalhe e afete outros elementos*/
+    white-space: nowrap; /*Impede que o texto dentro do elemento quebre para a linha seguinte.*/
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+}
+
+h1 {
+    max-width: 37.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+}
+
+h1 .flex {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
 }
