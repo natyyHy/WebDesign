@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Documentacao Tecnica JS</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Documentação JS</header>
+        <ul>
+            <li><a href="#Introdução" class="nav-link">Introdução</a></li>
+            <li><a href="#Primeiro_programa:_Hello,_World!" class="nav-link">Primeiro programa: Hello, World!</a></li>
+            <li><a href="#Variáveis" class="nav-link">Variáveis</a></li>
+            <li><a href="#Declarando_variáveis" class="nav-link">Declarando variáveis</a></li>
+            <li><a href="#Escopo_de_variáveis" class="nav-link">Escopo de variáveis</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introdução" >
+            <header>Introdução</header>
+            <article>
+                <p>
+                   JavaScript is a cross-platform, object-oriented scripting language.
+                   It is a small and lightweight language. Inside a host environment
+                   (for example, a web browser), JavaScript can be connected to the
+                   objects of its environment to provide programmatic control over
+                   them.
+                </p>
+                <p>
+                    JavaScript contains a standard library of objects, such as Array,
+                    Date, and Math, and a core set of language elements such as
+                    operators, control structures, and statements. Core JavaScript can
+                    be extended for a variety of purposes by supplementing it with
+                    additional objects; for example:
+                </p>
+                <ul>
+                    <li>Client-side JavaScript extends the core language by supplying objects
+                        to control a browser and its Document Object Model (DOM). For example,
+                        client-side extensions allow an application to place elements on an HTML
+                        form and respond to user events such as mouse clicks, form input, and page
+                        navigation.
+                    </li>
+                    <li>
+                        Server-side JavaScript extends the core language by supplying objects relevant
+                        to running JavaScript on a server. For example, server-side extensions allow an
+                        application to communicate with a database, provide continuity of information from
+                        one invocation to another of the application, or perform file manipulations on a server.
+                    </li>
+                    <li>
+                        Mobile JavaScript extends the language to interact with mobile devices, enabling access to
+                        features like GPS, accelerometer, and camera. Frameworks like React Native allow developers
+                        to build mobile apps using JavaScript.
+                    </li>
+                    <li>
+                        Game Development JavaScript extends the language for creating interactive games. Libraries such
+                        as Phaser.js and Three.js provide tools for rendering graphics, handling physics, and managing 
+                        animations.
+                    </li>
+                    <li>
+                        Machine Learning JavaScript extends the language to support artificial intelligence applications. 
+                        Libraries like TensorFlow.js enable developers to build and train machine learning models directly
+                        in the browser or on a server.
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Primeiro_programa:_Hello,_World!" >
+            <header>Primeiro programa: Hello, World!</header>
+            <article>
+                <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+                <code>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");</code>
+                <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+            </article>
+        </section>
+        <section class="main-section" id="Variáveis" >
+            <header>Variáveis</header>
+            <article>
+                <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+                <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript
+                is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+                <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some 
+                examples of legal names are Number_hits, temp99, and _name.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Declarando_variáveis" >
+            <header>Declarando variáveis</header>
+            <article>
+                <p>You can declare a variable in three ways:</p>
+                <code>var x = 42.</code>
+                <code>x = 42.</code>
+                <code>let y = 13.</code>
+            </article>
+        </section>
+        <section class="main-section" id="Escopo_de_variáveis" >
+            <header>Escopo de variáveis</header>
+            <article>
+                <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you 
+                declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
+                <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) 
+                that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared,
+                not the block, which in this case is an if statement.</p>
+                <code>if (true) { var x = 5; } console.log(x); // 5</code>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
